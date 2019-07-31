@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04133a3b-8e58-4acc-a63f-1a0b5c7f5bbb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="649">
-              <caret line="79" column="87" selection-start-line="79" selection-start-column="87" selection-end-line="79" selection-end-column="87" />
+            <state relative-caret-position="643">
+              <caret line="233" column="113" selection-start-line="233" selection-start-column="113" selection-end-line="233" selection-end-column="113" />
             </state>
           </provider>
         </entry>
@@ -56,6 +57,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -67,11 +69,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -107,11 +109,12 @@
       <workItem from="1564536897329" duration="1876000" />
       <workItem from="1564542002812" duration="1468000" />
       <workItem from="1564557803119" duration="597000" />
+      <workItem from="1564558940337" duration="560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3941000" />
+    <option name="totallyTimeSpent" value="4501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="949" extended-state="6" />
@@ -142,8 +145,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="79" column="87" selection-start-line="79" selection-start-column="87" selection-end-line="79" selection-end-column="87" />
+        <state relative-caret-position="643">
+          <caret line="233" column="113" selection-start-line="233" selection-start-column="113" selection-end-line="233" selection-end-column="113" />
         </state>
       </provider>
     </entry>
