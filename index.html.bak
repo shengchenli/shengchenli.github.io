@@ -3,7 +3,7 @@
     
     <head>
         <meta charset="utf-8"/>
-        <title>[ Dr. Shengchen LI ]</title>
+        <title>[ Embedded Artificial Intelligence Lab ]</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         
         <!-- Font Awesome Icons -->
@@ -49,7 +49,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <span><a href="#"><img border="0" width="200" src="images/logo.png"/></a>   Dr. Shengchen LI</span>
+                    <span><a href="#"><img border="0" width="200" src="images/logo.png"/></a>    Embedded Artificial Intelligence Lab</span>
                 </div>
                 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -75,13 +75,8 @@
 						<li class="page-scroll">
 							<a onclick="javascript:reset_menus();$('#tab-teachers-content').show();" href='#teacher'>Teachers</a>
 						</li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                Students<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a onclick="javascript:reset_menus();$('#tab-advising-content').show();" href="#advising">Ongoing Students</a></li>
-                                <li><a href="students.html">All Students</a></li>
-                            </ul>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-advising-content').show();" href="#advising">Students</a>
                         </li>
                         <li class="page-scroll">
 							<a onclick="javascript:reset_menus();$('#tab-activities-content').show();" href="#activities">Activities</a>
@@ -177,15 +172,10 @@
                     </b>
                     <div class="allshow" style="display:none;" id="tab-news-content">
                         <hr class="star-primary">
-                            <h2>News    <a href="news.html" class="btn btn-primary">All News &raquo;</a></h2>
-                            <p>16 Jul 2019: Shengchen Li has taught Machine Auditory jointly with <a href="http://www.eecs.qmul.ac.uk/~gyorgyf/">George Fazekas</a> in BUPT summer school.</p>
-                            <p>29 Jun 2019: A joint research team including the participation of EAI people wins the <a target="_blank" href="http://dcase.community/challenge2019/task-acoustic-scene-classification-results-c">DCASE Challenge 2019 Task 1C</a>.</p>
-                            <p>31 May 2019: <a target="_blank" href="students/wj.html">WANG Jun</a> has successfully defended his dissertation with usual minor corrections.</p>
-			                <p>22 May 2019: Shengchen Li give a seminar in CVSSP, University of Surrey on 22nd May 2019. </p>
-                            <p>14 May 2019: Yuanbo Hou has presented his paper <a target="_blank" href="https://ieeexplore.ieee.org/document/8683627">"Sound Event Detection with Sequentially Labelled Data based on Connectionist Temporal Classification and Unsupervised Clustering"</a> on <a href="https://2019.ieeeicassp.org">ICASSP 2019.</a></p>
-                            <p>09 May 2019: <a target="_blank" href="students/zhsj.html">ZHOU Songjiang</a> has successfully defended his dissertation with usual minor corrections.</p>
-                        <p></p>
-                        <p><a href="news.html" class="btn btn-primary">All News &raquo;</a></p>
+                            <h2>News</h2>
+                            <p>23 Apr 2019: Students are trained for internal system and website build.</p>
+							<p>20 Apr 2019: New student handbook has been released</p>
+                        
                     </div>
                 </div>
             </div>
@@ -204,11 +194,9 @@
                         
                         <h2>Selected Publications <a href="publications.html" class="btn btn-primary">All Publications &raquo;</a></h2>
                         <ul>
-                            <li><span class="label label-success">ICME 2019</span> "SVD-Based Channel Pruning for Convolutional Neural Network in Acoustic Scene Classification Model", Jun Wang, Shengchen Li, Wenwu Wang, Proceedings of the <b>IEEE International Conference on Multimedia and Expo (ICME 2019)</b>, IEEE, Shanghai, China, 8-12 July 2019. </li>
                             <li><span class="label label-success">ICASSP 2019</span> <a target="_blank" href="https://ieeexplore.ieee.org/document/8683627">"Sound Event Detection with Sequentially Labelled Data based on Connectionist Temporal Classification and Unsupervised Clustering"</a>, Yuanbo Hou, Qiuqiang Kong, Shengchen Li, Mark D. Plumbley, Proceedings of the <b>44th IEEE International Conference on Acoustic, Speech and Signal Processing (ICASSP'19)</b>, IEEE Signal Processing Society, Brighton, United Kingdom, 12-17 May 2019. </li>
-                            <li><span class="label label-success">Application of Electronic Technique</span> <a target="_blank" href="http://www.dzjy.cbpt.cnki.net/WKE/WebPublication/index.aspx?mid=DZJY">"A low power and high speed decoder design based on FPGA"</a>, Songjiang Zhou, Shengchen Li, Ming Liu, <b>Application of Electronic Technique</b>, 2018,44(04):27-32.</li>
-                            <li><span class="label label-success">ICASSP 2018</span> <a target="_blank" href="https://ieeexplore.ieee.org/document/8461713">"Comparing the Influence of Depth and Width of Deep Neural Network Based on Fixed Number of Parameters for Audio Event Detection"</a>, Jun Wang, Shengchen Li, Proceedings of the <b>43rd IEEE International Conference on Acoustic, Speech and Signal Processing (ICASSP'18)</b>, IEEE Signal Processing Society, Calgary, Canada, 15-20 April 2018. </li>
-                        <p><a href="publications.html" class="btn btn-primary">All Publications &raquo;</a></p>
+                        <p><a href="publications.html" class="btn btn-primary">All Publications &raquo;</a>
+                        </p>
                         </ul>
                     </div>
                 </div>
@@ -274,16 +262,12 @@
                     <div class="allshow" style="display:none;" id="tab-advising-content">
                         
                         <hr class="star-primary">
-                        <h2>Students <a href="students.html" class="btn btn-primary">All Students &raquo;</a></h2>
+                        <h2>Students</h2>
                         <ul>
-                            <li><span class="label label-success">PhD2018</span> <a target="_blank" href="students/jyj.html">JING Yinji</a> works on automated music composition
-                            <li><span class="label label-success">MPhil2018</span> <a target="_blank" href="students/rcx.html">REN Chunxia</a> works on classification of acoustic scenes.</li>
-                            <li><span class="label label-success">MEng2017</span> <a target="_blank" href="students/lzm.html">LI Ziming</a> works on music similarity research</li>
-							              <li><span class="label label-success">MEng2017</span> <a target="_blank" href="students/zhy.html">Zhang Hanyu</a> works on feature extraction based on wavelet transform</li>
-                            <li><span class="label label-success">BEng2016</span> <a target="_blank" href="students/wys.html">WU Yusong</a> works on automatic music generation on symbolic music.</li>
-                            <p></p>
-                            <p><a href="students.html" class="btn btn-primary">All Students &raquo;</a>
-                        </p>
+                            <li><span class="label label-success">MPhil2016</span> <a target="_blank" href="students/wj.html">WANG Jun</a> works on algorithm simplification with SVD decomposition.</li>
+                            <li><span class="label label-success">PhD2018</span> <a target="_blank" href="students/jyj.html">JING Yinji</a> works on automated music composition</li>
+							<li><span class="label label-success">MPhil2017</span> <a target="_blank" href="students/jyj.html">Zhang Hanyu</a> works on feature extraction based on wavelet transform</li>
+
                         </ul>
                     </div>
                 </div>
