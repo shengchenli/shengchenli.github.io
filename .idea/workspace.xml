@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04133a3b-8e58-4acc-a63f-1a0b5c7f5bbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/XJTLU-logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Yinji.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/csucy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/lzm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rcx.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/wj.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/wys.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/zhsj.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/zhy.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publications.html" beforeDir="false" afterPath="$PROJECT_DIR$/publications.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +37,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -121,6 +114,8 @@
       <workItem from="1617868803465" duration="165000" />
       <workItem from="1618967368194" duration="1148000" />
       <workItem from="1618968960365" duration="222000" />
+      <workItem from="1623912523785" duration="387000" />
+      <workItem from="1624339718488" duration="725000" />
     </task>
     <servers />
   </component>
