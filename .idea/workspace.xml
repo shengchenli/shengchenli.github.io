@@ -7,7 +7,6 @@
     <list default="true" id="04133a3b-8e58-4acc-a63f-1a0b5c7f5bbb" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +151,7 @@
       <workItem from="1730262438563" duration="2441000" />
       <workItem from="1731462360272" duration="4126000" />
       <workItem from="1732281916132" duration="286000" />
+      <workItem from="1739085466474" duration="71000" />
     </task>
     <task id="LOCAL-00001" summary="Upgrade for PhD Recruitment">
       <created>1644228924236</created>
