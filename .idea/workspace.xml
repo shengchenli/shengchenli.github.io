@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04133a3b-8e58-4acc-a63f-1a0b5c7f5bbb" name="Default Changelist" comment="Updates of PhD Studentships">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="04133a3b-8e58-4acc-a63f-1a0b5c7f5bbb" name="Default Changelist" comment="Updates of Recent Publications">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/publications.html" beforeDir="false" afterPath="$PROJECT_DIR$/publications.html" afterDir="false" />
     </list>
@@ -167,7 +166,7 @@
       <workItem from="1757489704677" duration="2740000" />
       <workItem from="1757496588860" duration="173000" />
       <workItem from="1758282556851" duration="565000" />
-      <workItem from="1766550875894" duration="12236000" />
+      <workItem from="1766550875894" duration="12421000" />
     </task>
     <task id="LOCAL-00001" summary="Upgrade for PhD Recruitment">
       <created>1644228924236</created>
@@ -248,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766563549468</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Updates of Recent Publications">
+      <option name="closed" value="true" />
+      <created>1766575524791</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1766575524791</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +278,7 @@
     <MESSAGE value="Default Changelist" />
     <MESSAGE value="Routine Update" />
     <MESSAGE value="Updates of PhD Studentships" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates of PhD Studentships" />
+    <MESSAGE value="Updates of Recent Publications" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates of Recent Publications" />
   </component>
 </project>
