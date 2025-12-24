@@ -4,16 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04133a3b-8e58-4acc-a63f-1a0b5c7f5bbb" name="Default Changelist" comment="Routine Update">
+    <list default="true" id="04133a3b-8e58-4acc-a63f-1a0b5c7f5bbb" name="Default Changelist" comment="Updates of PhD Studentships">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application.html" beforeDir="false" afterPath="$PROJECT_DIR$/application.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publications.html" beforeDir="false" afterPath="$PROJECT_DIR$/publications.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,6 +47,9 @@
 }</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -159,7 +169,7 @@
       <workItem from="1757489704677" duration="2740000" />
       <workItem from="1757496588860" duration="173000" />
       <workItem from="1758282556851" duration="565000" />
-      <workItem from="1766550875894" duration="7809000" />
+      <workItem from="1766550875894" duration="8331000" />
     </task>
     <task id="LOCAL-00001" summary="Upgrade for PhD Recruitment">
       <created>1644228924236</created>
@@ -216,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758282932210</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updates of PhD Studentships">
+      <option name="closed" value="true" />
+      <created>1766562399681</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1766562399681</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +256,7 @@
     <MESSAGE value="Upgrade for PhD Recruitment" />
     <MESSAGE value="Default Changelist" />
     <MESSAGE value="Routine Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Routine Update" />
+    <MESSAGE value="Updates of PhD Studentships" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates of PhD Studentships" />
   </component>
 </project>
