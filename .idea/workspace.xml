@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04133a3b-8e58-4acc-a63f-1a0b5c7f5bbb" name="Default Changelist" comment="Updates of Recent Publications">
+    <list default="true" id="04133a3b-8e58-4acc-a63f-1a0b5c7f5bbb" name="Default Changelist" comment="minor corrections">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activities.html" beforeDir="false" afterPath="$PROJECT_DIR$/activities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.html" beforeDir="false" afterPath="$PROJECT_DIR$/application.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/menucollapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/menucollapse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/publications.html" beforeDir="false" afterPath="$PROJECT_DIR$/publications.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publications/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/publications/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +80,10 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -85,7 +95,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-WS-252.23892.411" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.23567.141" />
       </set>
     </attachedChunks>
   </component>
@@ -166,7 +176,20 @@
       <workItem from="1757489704677" duration="2740000" />
       <workItem from="1757496588860" duration="173000" />
       <workItem from="1758282556851" duration="565000" />
-      <workItem from="1766550875894" duration="12421000" />
+      <workItem from="1766550875894" duration="12679000" />
+      <workItem from="1766576783356" duration="77000" />
+      <workItem from="1766576903064" duration="81000" />
+      <workItem from="1769255118068" duration="138000" />
+      <workItem from="1774614674664" duration="374000" />
+      <workItem from="1774615666484" duration="142000" />
+      <workItem from="1774615813389" duration="74000" />
+      <workItem from="1774615897370" duration="242000" />
+      <workItem from="1774616185932" duration="212000" />
+      <workItem from="1778566608686" duration="36000" />
+      <workItem from="1778566679984" duration="239000" />
+      <workItem from="1778566942619" duration="606000" />
+      <workItem from="1781837532956" duration="10000" />
+      <workItem from="1781838888894" duration="645000" />
     </task>
     <task id="LOCAL-00001" summary="Upgrade for PhD Recruitment">
       <created>1644228924236</created>
@@ -255,7 +278,55 @@
       <option name="project" value="LOCAL" />
       <updated>1766575524791</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Updates of Recent Publications">
+      <option name="closed" value="true" />
+      <created>1766575694611</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1766575694611</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Minor updates">
+      <option name="closed" value="true" />
+      <created>1766576966979</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1766576966979</updated>
+    </task>
+    <task id="LOCAL-00014" summary="updates">
+      <option name="closed" value="true" />
+      <created>1769255245564</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1769255245564</updated>
+    </task>
+    <task id="LOCAL-00015" summary="updates of PhD application">
+      <option name="closed" value="true" />
+      <created>1774616006724</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1774616006724</updated>
+    </task>
+    <task id="LOCAL-00016" summary="ICME Updates">
+      <option name="closed" value="true" />
+      <created>1774616132431</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1774616132431</updated>
+    </task>
+    <task id="LOCAL-00017" summary="minor corrections">
+      <option name="closed" value="true" />
+      <created>1774616208942</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1774616208942</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +350,11 @@
     <MESSAGE value="Routine Update" />
     <MESSAGE value="Updates of PhD Studentships" />
     <MESSAGE value="Updates of Recent Publications" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates of Recent Publications" />
+    <MESSAGE value="Minor updates" />
+    <MESSAGE value="updates" />
+    <MESSAGE value="updates of PhD application" />
+    <MESSAGE value="ICME Updates" />
+    <MESSAGE value="minor corrections" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor corrections" />
   </component>
 </project>

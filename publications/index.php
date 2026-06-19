@@ -31,7 +31,7 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 <script src="js/menucollapse.js"></script>
-<script type="text/javascript" src="js/arrow78.js"></script><html>
+<script type="text/javascript" src="js/arrow78.js"></script>
 
 
 <!-- Google Site Search | Search box-->
