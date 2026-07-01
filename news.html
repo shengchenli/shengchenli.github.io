@@ -1,146 +1,135 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <title>[ Dr. Shengchen LI ]</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <noscript><style>.allshow { display: block !important; }</style></noscript>
-
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="css/font-awesome.min.css"/>
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet"/>
-    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
-
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <!-- http://getbootstrap.com/customize/ change "@screen-sm" -> "@screen-md" in @grid-float-breakpoint -->
-    <script src="js/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/menucollapse.js"></script>
-    <script type="text/javascript" src="js/arrow78.js"></script>
-    <script type="text/javascript" src="js/custom.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>News | Dr Shengchen Li</title>
 </head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="index.html" class="logo">Shengchen Li</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="news.html" class="active">News</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="https://www.xjtlu.edu.cn" target="_blank" rel="noopener"><img src="img/xjtlu-logo.svg" alt="XJTLU" class="nav-logo-university" /></a>
+    </nav>
+  </header>
 
-<body id="page-top" class="index">
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">News</p>
+      <h1>Research updates and milestones.</h1>
+      <p>A chronological record of publications, awards, student enrolments, and career events.</p>
+    </section>
 
-<section  name="head">
-    <div class="container lead">
-        <div style="text-align: left; margin-top:10px" class="col-md-12">
-            <p><a href="index.html" class="btn btn-primary">Home &raquo;</a></p>
-        </div>
-    </div>
-</section>
+    <section class="section">
+      <div class="year-label">2026</div>
+      <ul class="news-list">
+        <li><span class="news-date">04 Jun 2026</span><span class="news-text">Three INTERSPEECH manuscripts have been accepted.</span></li>
+        <li><span class="news-date">25 Mar 2026</span><span class="news-text">A manuscript has been accepted by ICME 2026.</span></li>
+        <li><span class="news-date">23 Jan 2026</span><span class="news-text">Four manuscripts have been accepted by ICASSP, alongside two more TASLP paper presentations.</span></li>
+      </ul>
 
-<section  name="news" id="news">
-    <div class="container lead">
-        <div style="text-align: left; margin-top:10px" class="col-md-12">
+      <div class="year-label">2025</div>
+      <ul class="news-list">
+        <li><span class="news-date">24 Dec 2025</span><span class="news-text">We have a manuscript accepted by IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP).</span></li>
+        <li><span class="news-date">22 Dec 2025</span><span class="news-text">My research group has held the first annual workshop.</span></li>
+        <li><span class="news-date">16 Dec 2025</span><span class="news-text">FOUR PhD studentships have been granted under my supervision. For details, please refer to the <a href="contact.html#recruitment">recruitment page</a>.</span></li>
+        <li><span class="news-date">15 Sep 2025</span><span class="news-text">An international team led by me has ranked 4th in <a href="https://www.music-ir.org/mirex/wiki/2025:RenCon" target="_blank">RenCon, MIREX data challenge</a> and is invited for live performance over ISMIR 2025.</span></li>
+        <li><span class="news-date">05 Sep 2025</span><span class="news-text">We have two manuscripts accepted by DCASE Workshop 2025.</span></li>
+        <li><span class="news-date">25 Aug 2025</span><span class="news-text">We have two manuscripts accepted by CMMR 2025.</span></li>
+        <li><span class="news-date">10 Jul 2025</span><span class="news-text">A paper named &ldquo;<a href="https://ieeexplore.ieee.org/document/11077599" target="_blank">Domain Adaptation of Few-Shot Bioacoustic Event Detection in Different Environments</a>&rdquo; has been accepted by IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP).</span></li>
+        <li><span class="news-date">29 Mar 2025</span><span class="news-text">A manuscript has been accepted by ISMIR 2025.</span></li>
+      </ul>
 
-            <b class="noshow" style="display:none;" id="tab-3">
-                <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-news-content').toggle();">All News<span class="glyphicon glyphicon-chevron-down"></span></button>
-            </b>
-            <div class="allshow" style="display:none;" id="tab-news-content">
-                <hr class="star-primary">
-                <h2>News</h2>
-                <p>04 Jun 2026: Three INTERSPEECH manuscripts have been accepted.</p>
-                <p>25 Mar 2026: A manuscript has been accepted by ICME 2026.</p>
-                <p>23 Jan 2026: Four manuscripts have been accepted by ICASSP, alongside two more TASLP paper presentations.</p>
-                <p>24 Dec 2025: We have a manuscript accepted by IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP). </p>
-                <p>22 Dec 2025: My research group has held the first annual workshop. </p>
-                <p>16 Dec 2025: FOUR PhD studentships have been granted under my supervision. For details, please refer to the <a href="application.html">application website</a>. </p>
-                <p>15 Sep 2025: An international team led by me has ranked 4th in <a href="https://www.music-ir.org/mirex/wiki/2025:RenCon" target="_blank">RenCon, MIREX data challenge </a>and is invited for live performance over ISMIR 2025.</p>
-                <p>05 Sep 2025: We have two manuscripts accepted by DCASE Workshop 2025.</p>
-                <p>25 Aug 2025: We have two manuscripts accepted by CMMR 2025.</p>
-                <p>10 Jul 2025: A paper named "<a href="https://ieeexplore.ieee.org/document/11077599" target="_blank"> Domain Adaptation of Few-Shot Bioacoustic Event Detection in Different Environments </a> has been accepted by IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP). </p>
-                <p>29 Mar 2025: A manuscript has been accepted by ISMIR 2025.</p>
-                <p>31 Dec 2024: Our team has been awarded a special funding program of 15M RMB where I am responsible for a project and a sub-project under the program for a total of 5.5M funding. </p>
-                <p>22 Nov 2024: I have been promoted to associate professor, effective from 2025.</p>
-                <p>25 Oct 2024: My team has been awarded the "judges' award" for the task of data-efficient low-complexity acoustic scene classification in DCASE data challenge. </p>
-                <p>23 Oct 2024: A paper named "<a href="https://dcase.community/documents/workshop2024/proceedings/DCASE2024Workshop_Cai_35.pdf" target="_blank">Leveraging self-supervised audio representations for data-efficient acoustic scene classification </a>" has been accepted by DCASE Workshop 2024.</p>
-                <p>05 Sep 2024: A paper named "<a href="https://www.isca-archive.org/interspeech_2024/liu24b_interspeech.pdf" target="_blank"> Speech Formants Integration for Generalized Detection of Synthetic Speech Spoofing Attacks </a>" has been published by INTERSPEECH 2024.</p>
-                <p>10 Jan 2024: A paper named "<a href="https://ieeexplore.ieee.org/abstract/document/10398431" target="_blank"> Acoustic Scene Classification across Cities and Devices via Feature Disentanglement </a>" has been accepted by IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP).</p>
-                <p>03 Dec 2023: Yizhou Tan has enrolled in XJTLU as my PhD student.</p>
-                <p>14 Dec 2023: A paper named "<a href="https://ieeexplore.ieee.org/document/10447999" target="_blank">TF-SepNet: An Efficient 1D Kernel Design in CNNs for Low-Complexity Acoustic Scene Classification</a>" has been accepted by IEEE ICASSP.</p>
-                <p>13 Nov 2023: My student Yuqiang Li has presented his work "Pitch Class and Octave-based Pitch Embedding Training Strategies of Symbolic Music Generation. Proceedings of 16th International Symposium on Computer Music Multidisciplinary Research" on CMMR 2023.</p>
-                <p>01 Sep 2023: Yiqiang Cai has enrolled in XJTLU as my PhD student.</p>
-                <p>07 Jun 2023: I have given a webinar on music AI at Tsinghua University. </p>
-                <p>31 May 2023: The team led by me has been nominated as the runner-up of <a target="_blank" href="https://dcase.community/challenge2023/task-low-complexity-acoustic-scene-classification-results">DCASE Challenge 2023 Task 1</a>  </p>
-                <p>18 May 2023: A paper named "Transductive Feature Space Regularization for Few-shot Bioacoustic Event Detection" has been accepted by INTERSPEECH 2023.</p>
-                <p>04 May 2023: A paper named "Measuring channel sparsity for neural network pruning in acoustic scene classification" has been accepted by the 10th Conference on Sound and Music Computing (CSMT)</p>
-                <p>01 Mar 2023: Yuxuan Liu has enrolled in XJTLU as my PhD student.</p>
-                <p>14 Jul 2022: We have a paper accepted by ISMIR 2022.</p>
-                <p>01 Jul 2022: I have been offered a Junior Academia Innovative Fellowship under the scheme of Gusu Leadership Fellowship </p>
-                <p>03 May 2022: I have a SURF (Summer Undergraduate Research Fellowship) project funded.</p>
-                <p>10 Feb 2022: I have been appointed as the leader of the research group named machine learning and data analysis, school of Advanced Technology, Xi'an Jiaotong-Liverpool University.</p>
-                <p>24 Jan 2022: I have a PhD studentship awarded which is now calling for applicants.</p>
-                <p>01 Jan 2022: I have a Chinese review published on CCCF (Communications of CCF). </p>
-                <p>04 Jul 2021: My students have been named among the top-ranked team of DCASE challenge 2021. We ranked 3rd in automatic audio captioning and ranked 5th in Visual-Audio Scenes Classification.</p>
-                <p>27 Jun 2021: I have given a talk on CCF CTO Club (Hanshan Summit).</p>             
-                <p>09 Jun 2021: We have presented a paper named <a target="_blank" href="https://ieeexplore.ieee.org/document/9414165">“Unsupervised Heart Abnormality Detection Based on Phonocardiogram Analysis with Beta Variational Auto-Encoders”</a> on ICASSP 2021. </p>
-                <p>16 Apr 2021: I give a talk in Duke Kunshan University. </p>
-                <p>07 Apr 2021: I have left Beijing University of Posts and Telecommunications (BUPT) and joined Xi'an Jiaotong-Liverpool University.</p>
-                <p>22 Feb 2021: I have a paper accepted by ICASSP 2021. The paper is co-authored by Ke Tian and Rui Wang.</p>
-                <p>08 Nov 2020: My student Chunxia REN has been awarded "Best Student Paper" in Conference on Sound and Music Technology 2020 in Taiyuan, China.</p>
-                <p>04 Nov 2020: My DCASE team jointly formed by colleagues from Nanjing University of Posts and Telecommunications has been awarded the reproducibility award of Task 6, DCASE data challenge 2020. </p>
-                <p>08 Nov 2020: The AI composition identification data challenge (as <a href="https://ai-composition-recognition2020.github.io/english.html">CSMT data challenge 2020</a>) has announced the results.</p>
-                <p>04 Nov 2020: Our DCASE team has been awarded the reproducibility award in Task 6 of DCASE Challenge 2020.</p>
-                <p>26 Oct 2020: I hosted the Singing Voice Computing and Processing in Music (Special Session) of INTERSPEECH 2020.</p>
-                <p>25 Oct 2020: I am now a task force member of Speech Dialogue and Auditory Processing, China Computer Federation.</p>
-                <p>26 Jul 2020: Two papers have been accepted by INTERSPEECH 2020. </p>
-                <p>24 Aug 2020: I have reviewed three papers for IEEE Transactions on Audio, Speech and Language Processing and Neurocomputing. </p>
-                <p>04 Jul 2020: The joint team has ranked no. 2 at <a href="http://dcase.community/challenge2020/task-automatic-audio-captioning-results"> DCASE challenge Task 6. </a> </p>
-                <p>13 Jun 2020: I have given a speech on the webinar organised by the speech and auditory committee of China Computer Federation with the number of audiences reaching 4000. </p>
-                <p>21 Feb 2020: A joint <a href="http://dcase.community">DCASE</a> challenge team is formed with Nanjing University of Posts and Telecommunications (NJUPT), led by Prof. Xi Shao. </p>
-                <p>07 Feb 2020: Due to the virus outbreak, I am now working at home on all working days until further notice. </p>
-                <p>01 Dec 2020: I have served as a reviewer of ICASSP 2020.</p>
-                <p>08 Nov 2019: I went to <a href="https://ismir2019.ewi.tudelft.nl">ISMIR 2019</a> in Delft, Netherlands. </p>
-                <p>30 Oct 2019: Shengchen Li gives a seminar in C4DM, Queen Mary University of London.</p>
-                <p>16 Jul 2019: Shengchen Li has taught Machine Auditory jointly with <a href="http://www.eecs.qmul.ac.uk/~gyorgyf/">George Fazekas</a> in BUPT summer school.</p>
-                <p>29 Jun 2019: A joint research team including the participation of EAI people wins the <a target="_blank" href="http://dcase.community/challenge2019/task-acoustic-scene-classification-results-c">DCASE Challenge 2019 Task 1C</a>.</p>
-                <p>31 May 2019: <a target="_blank" href="students/wj.html">WANG Jun</a> has successfully defended his dissertation with usual minor corrections.</p>
-                <p>22 May 2019: Shengchen Li give a seminar in CVSSP, University of Surrey on 22nd May 2019. </p>
-                <p>14 May 2019: Yuanbo Hou has presented his paper <a target="_blank" href="https://ieeexplore.ieee.org/document/8683627">"Sound Event Detection with Sequentially Labelled Data based on Connectionist Temporal Classification and Unsupervised Clustering"</a> on <a href="https://2019.ieeeicassp.org">ICASSP 2019.</a></p>
-                <p>09 May 2019: <a target="_blank" href="students/zhsj.html">ZHOU Songjiang</a> has successfully defended his dissertation with usual minor corrections.</p>
-                <p>23 Apr 2019: Students are trained for internal system and website build.</p>
-                <p>20 Apr 2019: New student handbook has been released.</p>
-            </div>
-        </div>
-    </div>
-</section>
+      <div class="year-label">2024</div>
+      <ul class="news-list">
+        <li><span class="news-date">31 Dec 2024</span><span class="news-text">Our team has been awarded a special funding program of 15M RMB where I am responsible for a project and a sub-project under the program for a total of 5.5M funding.</span></li>
+        <li><span class="news-date">22 Nov 2024</span><span class="news-text">I have been promoted to associate professor, effective from 2025.</span></li>
+        <li><span class="news-date">25 Oct 2024</span><span class="news-text">My team has been awarded the &ldquo;judges&rsquo; award&rdquo; for the task of data-efficient low-complexity acoustic scene classification in DCASE data challenge.</span></li>
+        <li><span class="news-date">23 Oct 2024</span><span class="news-text">A paper named &ldquo;<a href="https://dcase.community/documents/workshop2024/proceedings/DCASE2024Workshop_Cai_35.pdf" target="_blank">Leveraging self-supervised audio representations for data-efficient acoustic scene classification</a>&rdquo; has been accepted by DCASE Workshop 2024.</span></li>
+        <li><span class="news-date">05 Sep 2024</span><span class="news-text">A paper named &ldquo;<a href="https://www.isca-archive.org/interspeech_2024/liu24b_interspeech.pdf" target="_blank">Speech Formants Integration for Generalized Detection of Synthetic Speech Spoofing Attacks</a>&rdquo; has been published by INTERSPEECH 2024.</span></li>
+        <li><span class="news-date">10 Jan 2024</span><span class="news-text">A paper named &ldquo;<a href="https://ieeexplore.ieee.org/abstract/document/10398431" target="_blank">Acoustic Scene Classification across Cities and Devices via Feature Disentanglement</a>&rdquo; has been accepted by IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP).</span></li>
+      </ul>
 
-<section  name="tail">
-    <div class="container lead">
-        <div style="text-align: left; margin-top:10px" class="col-md-12">
-            <p><a href="index.html" class="btn btn-primary">Home &raquo;</a></p>
-        </div>
-    </div>
-</section>
+      <div class="year-label">2023</div>
+      <ul class="news-list">
+        <li><span class="news-date">14 Dec 2023</span><span class="news-text">A paper named &ldquo;<a href="https://ieeexplore.ieee.org/document/10447999" target="_blank">TF-SepNet: An Efficient 1D Kernel Design in CNNs for Low-Complexity Acoustic Scene Classification</a>&rdquo; has been accepted by IEEE ICASSP.</span></li>
+        <li><span class="news-date">03 Dec 2023</span><span class="news-text">Yizhou Tan has enrolled in XJTLU as my PhD student.</span></li>
+        <li><span class="news-date">13 Nov 2023</span><span class="news-text">My student Yuqiang Li has presented his work on CMMR 2023.</span></li>
+        <li><span class="news-date">01 Sep 2023</span><span class="news-text">Yiqiang Cai has enrolled in XJTLU as my PhD student.</span></li>
+        <li><span class="news-date">07 Jun 2023</span><span class="news-text">I have given a webinar on music AI at Tsinghua University.</span></li>
+        <li><span class="news-date">31 May 2023</span><span class="news-text">The team led by me has been nominated as the runner-up of <a target="_blank" href="https://dcase.community/challenge2023/task-low-complexity-acoustic-scene-classification-results">DCASE Challenge 2023 Task 1</a>.</span></li>
+        <li><span class="news-date">18 May 2023</span><span class="news-text">A paper named &ldquo;Transductive Feature Space Regularization for Few-shot Bioacoustic Event Detection&rdquo; has been accepted by INTERSPEECH 2023.</span></li>
+        <li><span class="news-date">04 May 2023</span><span class="news-text">A paper named &ldquo;Measuring channel sparsity for neural network pruning in acoustic scene classification&rdquo; has been accepted by the 10th Conference on Sound and Music Computing (CSMT).</span></li>
+        <li><span class="news-date">01 Mar 2023</span><span class="news-text">Yuxuan Liu has enrolled in XJTLU as my PhD student.</span></li>
+      </ul>
 
-<hr class="star-primary">
-<footer>
-    <small>
-        <div style="text-align: center;">
-            © 2024 | Auditory Intelligence Computing. Credits: AR template
-            <a onclick="javascript:$('#credit').toggle();"><img border="0" src="images/ccby.png"/></a>
-            <div style="display:none;" id="credit">[AR template available under Creative Commons CC BY 4.0 licence:
-                <a href="https://github.com/dmsl/academic-responsive-template" target="_blank">
-                    https://github.com/dmsl/academic-responsive-template
-                </a> ]
-            </div>
-        </div>
-    </small>
-</footer>
+      <div class="year-label">2022</div>
+      <ul class="news-list">
+        <li><span class="news-date">14 Jul 2022</span><span class="news-text">We have a paper accepted by ISMIR 2022.</span></li>
+        <li><span class="news-date">01 Jul 2022</span><span class="news-text">I have been offered a Junior Academia Innovative Fellowship under the scheme of Gusu Leadership Fellowship.</span></li>
+        <li><span class="news-date">03 May 2022</span><span class="news-text">I have a SURF (Summer Undergraduate Research Fellowship) project funded.</span></li>
+        <li><span class="news-date">10 Feb 2022</span><span class="news-text">I have been appointed as the leader of the research group named machine learning and data analysis, School of Advanced Technology, XJTLU.</span></li>
+        <li><span class="news-date">24 Jan 2022</span><span class="news-text">I have a PhD studentship awarded which is now calling for applicants.</span></li>
+        <li><span class="news-date">01 Jan 2022</span><span class="news-text">I have a Chinese review published on CCCF (Communications of CCF).</span></li>
+      </ul>
 
+      <div class="year-label">2021</div>
+      <ul class="news-list">
+        <li><span class="news-date">04 Jul 2021</span><span class="news-text">My students have been named among the top-ranked team of DCASE challenge 2021. We ranked 3rd in automatic audio captioning and ranked 5th in Visual-Audio Scenes Classification.</span></li>
+        <li><span class="news-date">27 Jun 2021</span><span class="news-text">I have given a talk on CCF CTO Club (Hanshan Summit).</span></li>
+        <li><span class="news-date">09 Jun 2021</span><span class="news-text">We have presented a paper named <a target="_blank" href="https://ieeexplore.ieee.org/document/9414165">Unsupervised Heart Abnormality Detection Based on Phonocardiogram Analysis with Beta Variational Auto-Encoders</a> on ICASSP 2021.</span></li>
+        <li><span class="news-date">16 Apr 2021</span><span class="news-text">I give a talk in Duke Kunshan University.</span></li>
+        <li><span class="news-date">07 Apr 2021</span><span class="news-text">I have left Beijing University of Posts and Telecommunications (BUPT) and joined XJTLU.</span></li>
+        <li><span class="news-date">22 Feb 2021</span><span class="news-text">I have a paper accepted by ICASSP 2021. The paper is co-authored by Ke Tian and Rui Wang.</span></li>
+      </ul>
+
+      <div class="year-label">2020</div>
+      <ul class="news-list">
+        <li><span class="news-date">01 Dec 2020</span><span class="news-text">I have served as a reviewer of ICASSP 2020.</span></li>
+        <li><span class="news-date">08 Nov 2020</span><span class="news-text">My student Chunxia Ren has been awarded &ldquo;Best Student Paper&rdquo; in Conference on Sound and Music Technology 2020 in Taiyuan, China.</span></li>
+        <li><span class="news-date">08 Nov 2020</span><span class="news-text">The AI composition identification data challenge (as <a href="https://ai-composition-recognition2020.github.io/english.html">CSMT data challenge 2020</a>) has announced the results.</span></li>
+        <li><span class="news-date">04 Nov 2020</span><span class="news-text">My DCASE team jointly formed by colleagues from Nanjing University of Posts and Telecommunications has been awarded the reproducibility award of Task 6, DCASE data challenge 2020.</span></li>
+        <li><span class="news-date">26 Oct 2020</span><span class="news-text">I hosted the Singing Voice Computing and Processing in Music (Special Session) of INTERSPEECH 2020.</span></li>
+        <li><span class="news-date">25 Oct 2020</span><span class="news-text">I am now a task force member of Speech Dialogue and Auditory Processing, China Computer Federation.</span></li>
+        <li><span class="news-date">24 Aug 2020</span><span class="news-text">I have reviewed three papers for IEEE Transactions on Audio, Speech and Language Processing and Neurocomputing.</span></li>
+        <li><span class="news-date">26 Jul 2020</span><span class="news-text">Two papers have been accepted by INTERSPEECH 2020.</span></li>
+        <li><span class="news-date">04 Jul 2020</span><span class="news-text">The joint team has ranked no. 2 at <a href="http://dcase.community/challenge2020/task-automatic-audio-captioning-results">DCASE challenge Task 6</a>.</span></li>
+        <li><span class="news-date">13 Jun 2020</span><span class="news-text">I have given a speech on the webinar organised by the speech and auditory committee of China Computer Federation with the number of audiences reaching 4000.</span></li>
+        <li><span class="news-date">21 Feb 2020</span><span class="news-text">A joint <a href="http://dcase.community">DCASE</a> challenge team is formed with Nanjing University of Posts and Telecommunications (NJUPT), led by Prof. Xi Shao.</span></li>
+        <li><span class="news-date">07 Feb 2020</span><span class="news-text">Due to the virus outbreak, I am now working at home on all working days until further notice.</span></li>
+      </ul>
+
+      <div class="year-label">2019</div>
+      <ul class="news-list">
+        <li><span class="news-date">08 Nov 2019</span><span class="news-text">I went to <a href="https://ismir2019.ewi.tudelft.nl">ISMIR 2019</a> in Delft, Netherlands.</span></li>
+        <li><span class="news-date">30 Oct 2019</span><span class="news-text">Shengchen Li gives a seminar in C4DM, Queen Mary University of London.</span></li>
+        <li><span class="news-date">16 Jul 2019</span><span class="news-text">Shengchen Li has taught Machine Auditory jointly with <a href="http://www.eecs.qmul.ac.uk/~gyorgyf/">George Fazekas</a> in BUPT summer school.</span></li>
+        <li><span class="news-date">29 Jun 2019</span><span class="news-text">A joint research team wins the <a target="_blank" href="http://dcase.community/challenge2019/task-acoustic-scene-classification-results-c">DCASE Challenge 2019 Task 1C</a>.</span></li>
+        <li><span class="news-date">31 May 2019</span><span class="news-text">WANG Jun has successfully defended his dissertation.</span></li>
+        <li><span class="news-date">22 May 2019</span><span class="news-text">Shengchen Li gives a seminar in CVSSP, University of Surrey.</span></li>
+        <li><span class="news-date">14 May 2019</span><span class="news-text">Yuanbo Hou has presented his paper <a target="_blank" href="https://ieeexplore.ieee.org/document/8683627">Sound Event Detection with Sequentially Labelled Data based on Connectionist Temporal Classification and Unsupervised Clustering</a> on <a href="https://2019.ieeeicassp.org">ICASSP 2019</a>.</span></li>
+        <li><span class="news-date">09 May 2019</span><span class="news-text">ZHOU Songjiang has successfully defended his dissertation.</span></li>
+        <li><span class="news-date">23 Apr 2019</span><span class="news-text">Students are trained for internal system and website build.</span></li>
+        <li><span class="news-date">20 Apr 2019</span><span class="news-text">New student handbook has been released.</span></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>&copy; 2026 Dr Shengchen Li. All rights reserved.</p></footer>
 </body>
-
 </html>

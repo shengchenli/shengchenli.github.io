@@ -1,277 +1,252 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>[ Dr. Shengchen LI ]</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <noscript><style>.allshow { display: block !important; }</style></noscript>
-        
-        <!-- Font Awesome Icons -->
-        <link rel="stylesheet" href="css/font-awesome.min.css"/>
-        
-        <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet"/>
-        <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
-        
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-         <script src="js/html5shiv.js"></script>
-         <script src="js/respond.min.js"></script>
-         <![endif]-->
-        
-        
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <!-- http://getbootstrap.com/customize/ change "@screen-sm" -> "@screen-md" in @grid-float-breakpoint -->
-        <script src="js/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/menucollapse.js"></script>
-        <script type="text/javascript" src="js/arrow78.js"></script>
-        <script type="text/javascript" src="js/custom.js"></script>
-    </head>
-    
-    <body id="page-top" class="index">
-        
-        <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <span><a href="http://www.xjtlu.edu.cn" target="_blank"><img border="0" width="100" src="images/XJTLU-logo.png"/></a>   Dr. Shengchen LI</span>
-                </div>
-                
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="#intro">Introduction</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#news">News</a>
-                        </li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                Publications<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a onclick="javascript:reset_menus();$('#tab-publications-content').show();" href="#publications">Selected</a></li>
-                                <li><a href="publications.html">All</a></li>
-                            </ul>
-                        </li>
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-awards-content').show();" href="#awards">Awards</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="application.html">RA / PhD Recruitment</a>
-                        </li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-        </nav>
-        
-        <!-- Home Section -->
-        <section  name="home" id="home" style="margin-top:40px">
-            <div class="container">
-                <div align="left" class="col-md-3">
-                    <img id="mobile-img" src="images/lsc.jpg" width="200" border="0" height="200" alt="">
-                </div>
-                <div align="left" class="col-md-4">
-                    <h2>Dr. Shengchen LI
-                    </h2>
-                    
-                        Email:
-                        <script language="JavaScript">
-                            <!--
-                            document.write("&nbsp;");
-                            spiderjam('shengchen.li','xjtlu.edu.cn');
-                            -->
-                            </script><br/>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dr Shengchen Li, Associate Professor in machine listening, audio AI, music information retrieval, acoustic scene analysis, and trustworthy audio machine learning." />
+  <title>Dr Shengchen Li | Machine Listening Researcher</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="index.html" class="logo">Shengchen Li</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="https://www.xjtlu.edu.cn" target="_blank" rel="noopener"><img src="img/xjtlu-logo.svg" alt="XJTLU" class="nav-logo-university" /></a>
+    </nav>
+  </header>
 
-                        Associate Professor, Department of Intelligent Science, School of Advanced Technology, <br />
-						SD 533, Science Building, <br />
-						No. 111, Ren'ai Road, <br />
-						Xi'an Jiaotong-Liverpool University, <br />
-						Suzhou, Jiangsu, China, 215123
-                </div>
-                
-                <!--<p><a href="#" class="btn btn-primary">More &raquo;</a></p>-->
-                <b class="expandshow" style="display:none;" id="tab-1">
-                    <button class="btn btn-primary btn-lg btn-block" style="width: 100%;" onclick="javascript:$('.allshow').show();$('.noshow').hide();$('.collapseshow').show();$('.expandshow').hide();">EXPAND ALL SECTIONS <span class="glyphicon glyphicon-chevron-down"></span></button>
-                </b>
-                <b class="collapseshow" style="display:none;" id="tab-2">
-                    <button class="btn btn-primary btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('.allshow').hide();$('.noshow').show();$('.expandshow').show();$('.collapseshow').hide();">COLLAPSE ALL SECTIONS <span class="glyphicon glyphicon-chevron-up"></span></button>
-                </b>
-                
-            </div>
-        </section>
-        
-        <!-- Introduction Section -->
-        <section name="intro" id="intro">
-            <div class="container lead">
-                <div style="text-align: left; margin-top:10px" class="col-md-12">
-                    <!--<h2>Welcome!</h2>-->
-                    
-                    <b class="noshow" style="display:none;" id="tab-3">
-                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-intro-content').toggle();">Introduction <span class="glyphicon glyphicon-chevron-down"></span></button>
-                    </b>
-                    
-                    <div class="allshow" style="display:none;" id="tab-intro-content">
-                        <hr class="star-primary">
+  <!-- Hero -->
+  <section class="hero">
+    <div>
+      <p class="eyebrow">Associate Professor &middot; Machine Listening &middot; Audio AI</p>
+      <h1>Machine listening for robust, intelligent, and responsible sound understanding.</h1>
+      <p class="hero-text">This is Dr Shengchen Li, an Associate Professor in the Department of Intelligent Science, School of Advanced Technology, Xi&rsquo;an Jiaotong-Liverpool University. My research focuses on trustworthy and robust machine listening, including acoustic scene analysis, music information retrieval, generative audio tracking, and audio security.</p>
+      <div class="hero-actions">
+        <a href="research.html" class="button primary">Explore Research</a>
+        <a href="publications.html" class="button secondary">View Publications</a>
+        <a href="https://scholar.xjtlu.edu.cn/en/persons/ShengchenLi/" target="_blank" class="button secondary">XJTLU Profile</a>
+        <a href="contact.html" class="button secondary">Contact</a>
+      </div>
+    </div>
+    <aside class="hero-card">
+      <img src="img/portrait.jpg" alt="Dr Shengchen Li" class="hero-portrait" />
+      <h2>Profile</h2>
+      <ul>
+        <li>Associate Professor, Xi&rsquo;an Jiaotong-Liverpool University</li>
+        <li>Programme Director, BEng AI (Intelligent Systems)</li>
+        <li>Senior Member, IEEE</li>
+        <li>Area Chair, ICASSP 2025&ndash;2026</li>
+        <li>Meta Reviewer, ISMIR 2026</li>
+      </ul>
+    </aside>
+  </section>
 
-                        <h2> Introduction </h2>
-                        
-                        <p class="lead">
-                            Graduated from Centre for Digital Music (C4DM), Queen Mary University of London, Dr.
-                            Shengchen Li has focused on research of auditory intelligence for about more than ten
-                            years. His expertise ranges from computational musicology to acoustic signal processing
-                            with some attempts on hardware implementation of deep learning algorithms. Shengchen
-                            has hosted a NSFC (Natural Science Foundation of China) project named Acoustic
-                            Scenes Identification based on Domain Adaptation. Shengchen is also a member of
-                            task force on Speech Dialogue and Auditory Processing, China Computer Federation.
-                        </p>
-                        <p class="lead">
-                            Serving as an associate professor in Xi'an Jiaotong-Liverpool University, Shengchen leads
-                            a research group of machine learning and data analytics in School of Advanced Technology (SAT).
-                            He is currently the module leader of INT306 (Computer Auditory Systems) and INT104 (Artificial
-                            Intelligence). Shengchen is a good student team leader. His research team has won high
-                            ranks at the DCASE (Detection and Classification of Acoustic Scenes and Events) data
-                            challenge. Shengchen is recruiting new PhD students / RAs who are interested in auditory
-                            intelligence research throughout the academic year. From case to case, there might be
-                            scholarship available for PhD applicants.
-                        </p>
-                        <p>
-                            <b>There are THREE PhD studentships for application now, please refer to </b>
-                            <a href="application.html">RA / PhD Recruitment</a>.
-                        </p>
-                        <p class="lead">
-                            You may want to visit my <a href="https://scholar.xjtlu.edu.cn/en/persons/ShengchenLi">official page</a> as well.
-                        </p>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-        
-        <!-- News Section -->
-        <section  name="news"  id="news">
-            <div class="container lead">
-                <div style="text-align: left; margin-top:10px" class="col-md-12">
-                    <b class="noshow" style="display:none;" id="tab-4">
-                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-news-content').toggle();">News  <span class="glyphicon glyphicon-chevron-down"></span></button>
-                    </b>
-                    <div class="allshow" style="display:none;" id="tab-news-content">
-                        <hr class="star-primary">
-                            <h2>News</h2>
-                            <p>04 Jun 2026: Three INTERSPEECH manuscripts have been accepted.</p>
-                            <p>25 Mar 2026: A manuscript has been accepted by ICME 2026.</p>
-                            <p>23 Jan 2026: Four manuscripts have been accepted by ICASSP, alongside two more TASLP paper presentations.</p>
-                            <p>24 Dec 2025: We have a manuscript accepted by IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP). </p>
-                            <p>22 Dec 2025: My research group has held the first annual workshop. </p>
-                            <p>16 Dec 2025: FOUR PhD studentships have been granted under my supervision. For details, please refer to the <a href="application.html">application website</a>. </p>
-                        <h3>For more news please refer to <a href="https://shengchenli.github.io/news.html" target="_blank">this page</a>.  </h3>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <!-- Research Section -->
-        <section  name="publications" id="publications">
-            <div class="container lead">
-                <div style="text-align: left; margin-top:10px" class="col-md-12">
-                    
-                    <b class="noshow" style="display:none;" id="tab-5">
-                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-publications-content').toggle();">Publications  <span class="glyphicon glyphicon-chevron-down"></span></button>
-                    </b>
-                    <div class="allshow" style="display:none;" id="tab-publications-content">
-                        <hr class="star-primary">
-                        <h2>Selected Publications <a href="publications.html" class="btn btn-primary">All Publications &raquo;</a></h2>
-                        <ul>
-                            <li><span class="label label-success">TASLP 2025</span><a target="_blank" href="https://ieeexplore.ieee.org/document/11077599"> "Domain Adaptation of Few-Shot Bioacoustic Event Detection in Different Environments"</a>, Yizhou Tan, Haojun Ai, Shengchen Li, George Fazekas, IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP), pages 2986-2998, 2025.</li>
-                            <li><span class="label label-success">ICASSP 2024</span><a target="_blank" href="https://ieeexplore.ieee.org/document/10447999"> "TF-SepNet: An Efficient 1D Kernel Design in CNNs for Low-Complexity Acoustic Scene Classification"</a>, Yiqiang Cai, Peihong Zhang, Shengchen Li, 48th IEEE International Conference on Acoustic, Speech and Signal Processing (ICASSP'24), 2024.</li>
-                            <li><span class="label label-success">TASLP 2024</span><a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/10398431"> "Acoustic Scene Classification Across Cities and Devices via Feature Disentanglement"</a>, Yizhou Tan, Haojun Ai, Shengchen Li, Mark D. Plumbley, IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP), pages 1286-1297, 2024.</li>
-                            <li><span class="label label-success">INTERSPEECH 2023</span><a target="_blank" href="https://www.isca-archive.org/interspeech_2023/tan23_interspeech.html"> "Transductive Feature Space Regularization for Few-shot Bioacoustic Event Detection"</a>, Yizhou Tan, Haojun Ai, Shengchen Li, Fang Zhang, Proceedings of the Twenty-Fourth Conference of the International Speech Communication Association (INTERSPEECH), pages 571-575, 2023.</li>
-                            <li><span class="label label-success">ISMIR 2022</span><a target="_blank" href="https://archives.ismir.net/ismir2022/paper/000010.pdf"> "How Music Features and Musical Data Representations Affect Objective Evaluation of Music Composition: a Review of the CSMT data challenge 2020"</a>, Yuqiang Li, Shengchen Li, George Fazekas, Proceedings of Annual Conference of International Society of Music Information Retrieval, pp. 93--99, 2022.</li>
-                            <li><span class="label label-success">FMed 2021</span><a target="_blank" href="https://www.frontiersin.org/articles/10.3389/fmed.2021.655084/full"> "Unsupervised Phonocardiogram Analysis With Distribution Density Based Variational Auto-Encoders"</a>, Shengchen Li, Ke Tian, Frontiers in Medicine, Vol. 8, pp. 1071, 2021.</li>
-                            <li><span class="label label-success">ICASSP 2021</span><a target="_blank" href="https://ieeexplore.ieee.org/document/9414165"> “Unsupervised Heart Abnormality Detection Based on Phonocardiogram Analysis with Beta Variational Auto-Encoders”</a>, Shengchen Li, Ke Tian, Rui Wang, Proceedings of the <b>45th IEEE International Conference on Acoustic, Speech and Signal Processing (ICASSP'21)</b> , IEEE Signal Processing Society, Toronto, Canada, 6-11 June 2021. </li>
-                            <li><span class="label label-success">INTERSPEECH 2020</span><a target="_blank" href="https://isca-speech.org/archive/Interspeech_2020/abstracts/1806.html"> "Transfer Learning for Improving Singing-Voice Detection in Polyphonic Instrumental Music"</a>, Yuanbo Hou, Frank K. Soong, Jian Luan, Shengchen Li, Proceedings of <b>INTERSPEECH 2020</b>, Shanghai, China, 26-29 Oct 2020.</li>
-                            <li><span class="label label-success">INTERSPEECH 2020</span><a target="_blank" href="https://isca-speech.org/archive/Interspeech_2020/abstracts/1724.html"> "Peking Opera Synthesis via Duration Informed Attention Network"</a>, Yusong Wu, Shengchen Li, Chengzhu Yu, Heng Lu, Chao Weng, Liqiang Zhang, Dong Yu, Proceedings of <b>INTERSPEECH 2020</b>, Shanghai, China, 26-29 Oct 2020.</li>
-                            <li><span class="label label-success">ICASSP 2019</span> <a target="_blank" href="https://ieeexplore.ieee.org/document/8683627"> "Sound Event Detection with Sequentially Labelled Data based on Connectionist Temporal Classification and Unsupervised Clustering"</a>, Yuanbo Hou, Qiuqiang Kong, Shengchen Li, Mark D. Plumbley, Proceedings of the <b>44th IEEE International Conference on Acoustic, Speech and Signal Processing (ICASSP'19)</b>, IEEE Signal Processing Society, Brighton, United Kingdom, 12-17 May 2019. </li>
-                            <li><span class="label label-success">ICASSP 2018</span> <a target="_blank" href="https://ieeexplore.ieee.org/document/8461713"> "Comparing the Influence of Depth and Width of Deep Neural Network Based on Fixed Number of Parameters for Audio Event Detection"</a>, Jun Wang, Shengchen Li, Proceedings of the <b>43rd IEEE International Conference on Acoustic, Speech and Signal Processing (ICASSP'18)</b>, IEEE Signal Processing Society, Calgary, Canada, 15-20 April 2018. </li>
-                        </ul>
-                        <p><a href="publications.html" class="btn btn-primary">All Publications &raquo;</a></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-    
- 
-         <!-- Awards Section -->
-         <section  name="awards" id="awards">
-             <div class="container lead">
-                 <div style="text-align: left; margin-top:10px" class="col-md-12">
-                     
-                     <b class="noshow" style="display:none;" id="tab-6">
-                         <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-awards-content').toggle();">Awards  <span class="glyphicon glyphicon-chevron-down"></span></button>
-                     </b>
-                     <div class="allshow" style="display:none;" id="tab-awards-content">
-                         
-                         <hr class="star-primary"> 
-                         <h2>Awards and Honors </h2>
-                         <ul>
-                             <li>
-                                 <span class="label label-success">DCASE 2024</span> Yiqiang CAI, Minyu LIN and Shengchen LI were named among the judge's award of <a target="_blank" href="https://dcase.community/challenge2024/task-data-efficient-low-complexity-acoustic-scene-classification">DCASE Challenge 2024 Task 1</a> with colleagues from Nanjing University of Posts and Telecommunications.
-                             </li>
-                            <li>
-                                <span class="label label-success">DCASE 2023</span> Yiqiang CAI, Minyu LIN and Shengchen LI were named among the runner-up of <a target="_blank" href="https://dcase.community/challenge2023/task-low-complexity-acoustic-scene-classification-results">DCASE Challenge 2023 Task 1</a> with colleagues from Nanjing University of Posts and Telecommunications.
-                            </li>
-                            <li>
-                                <span class="label label-success">Suzhou</span> Shengchen LI, Junior Academia Innovative Fellowship, Gusu Leadership Fellowship, Suzhou Government, July 2022 - July 2025
-                            </li>
-                             <li>
-                                 <span class="label label-success">DCASE 2020</span> Yusong WU, Kun CHEN and Shengchen LI were named among the runner-up of <a target="_blank" href="http://dcase.community/challenge2020/task-automatic-audio-captioning-results">DCASE Challenge 2020 Task 6</a> with colleagues from Nanjing University of Posts and Telecommunications.
-                             </li>
-                             <li>
-                                 <span class="label label-success">BAST</span> Shengchen LI, Junior Promotion Fellowship, Beijing Acoustic Association, Beijing Association of Science and Technologies, 2020-2022
-                             </li>
-                             <li>
-                                 <span class="label label-success">DCASE 2019</span> Chunxia REN, Jun WANG and Shengchen LI were named among the winners of <a target="_blank" href="http://dcase.community/challenge2019/task-acoustic-scene-classification-results-c">DCASE Challenge 2019 Task 1C</a> with colleagues from Samsung Research Centre, Beijing.
-                             </li>
-                             <li>
-                                 <span class="label label-success">CSMT 2018</span> Shengchen LI, Scholar Contribution Award, 6th Conference on Sound and Music Technology
-                             </li>
-                             <li>
-                                 <span class="label label-success">CSC 2011</span> Shengchen LI, No. 2011647018, Public Funding of Overseas Study for High-level University Establishment, China Scholarship Council
-                             </li>
-                         </ul>
-                     </div>
-                 </div>
-             </div>
-         </section>
+  <!-- Recent News -->
+  <section class="section muted">
+    <p class="eyebrow">Latest updates</p>
+    <h2>Recent news</h2>
+    <ul class="news-list">
+      <li><span class="news-date">04 Jun 2026</span><span class="news-text">Three INTERSPEECH manuscripts have been accepted.</span></li>
+      <li><span class="news-date">25 Mar 2026</span><span class="news-text">A manuscript has been accepted by ICME 2026.</span></li>
+      <li><span class="news-date">23 Jan 2026</span><span class="news-text">Four manuscripts have been accepted by ICASSP, alongside two more TASLP paper presentations.</span></li>
+      <li><span class="news-date">24 Dec 2025</span><span class="news-text">We have a manuscript accepted by IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP).</span></li>
+      <li><span class="news-date">22 Dec 2025</span><span class="news-text">My research group has held the first annual workshop.</span></li>
+    </ul>
+    <p style="margin-top: 1.5rem;"><a href="news.html" class="button secondary">View all news</a></p>
+  </section>
 
-        
-        <hr class="star-primary">
-        <footer>
-            <small>
-                <div style="text-align: center;">
-                    © Credits: 2024 | Auditory Intelligence Computing. AR template
-                    <a onclick="javascript:$('#credit').toggle();"><img border="0" src="images/ccby.png"/></a>
-                    <div style="display:none;" id="credit">[AR template available under Creative Commons CC BY 4.0 licence:
-                        <a href="https://github.com/dmsl/academic-responsive-template" target="_blank">
-                            https://github.com/dmsl/academic-responsive-template
-                        </a> ]
-                    </div>
-                </div>
-            </small>
-        </footer>
-        
-    </body>
-    
+  <!-- Research Overview -->
+  <section class="section">
+    <p class="eyebrow">Research overview</p>
+    <h2>Sound, music, intelligence, and trust.</h2>
+    <div class="two-column">
+      <p>My research area is centred on <b>audio and music intelligence</b>, with a broader goal of enabling machines to understand, model, generate, and reason about sound in real-world contexts. The work spans machine listening, acoustic scene and event analysis, audio-language understanding, symbolic music and music generation, expressive performance modelling, speech and voice processing, and healthcare audio. Across these topics, the core motivation is to build computational systems that can extract meaningful structure from complex sound, connect audio with human-centred applications, and support both scientific understanding and practical intelligent systems.</p>
+      <p>This research area is further strengthened by three connected directions. <b>Robust, trustworthy, and efficient AI</b> addresses the reliability of audio and music systems under domain shift, limited data, computational constraints, privacy risks, and adversarial conditions. <b>Multi-modal and cross-domain perception</b> extends audio intelligence by integrating sound with language, vision, wireless signals, radar, skeleton data, and other sensing modalities. <b>Peripheral review and interdisciplinary work</b> broadens the impact of the research by connecting audio AI, generative AI, signal analysis, education, healthcare, engineering, and applied systems. </p> 
+      <p>Together, these four directions form a coherent research portfolio: audio and music intelligence provides the foundation, robustness and trustworthiness support deployment, multimodal perception expands the scope, and interdisciplinary work connects the research to wider academic and societal contexts.</p>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="section muted">
+    <p class="eyebrow">Selected achievements</p>
+    <h2>Research impact</h2>
+    <div class="stats-grid">
+      <div class="stat-card"><strong>64</strong><span>Publications</span></div>
+      <div class="stat-card"><strong>770</strong><span>Citations</span></div>
+      <div class="stat-card"><strong>15</strong><span>h-index</span></div>
+      <div class="stat-card"><strong>23</strong><span>i10-index</span></div>
+    </div>
+  </section>
+
+  <!-- Awards -->
+  <section class="section">
+    <p class="eyebrow">Recognition</p>
+    <h2>Awards and honours</h2>
+    <ul class="awards-list">
+      <li><span class="award-badge">DCASE 2024</span><span>Yiqiang Cai, Minyu Lin and Shengchen Li &mdash; Judge&rsquo;s Award, DCASE Challenge 2024 Task 1, with colleagues from Nanjing University of Posts and Telecommunications.</span></li>
+      <li><span class="award-badge">DCASE 2023</span><span>Yiqiang Cai, Minyu Lin and Shengchen Li &mdash; Runner-up, DCASE Challenge 2023 Task 1, with colleagues from Nanjing University of Posts and Telecommunications.</span></li>
+      <li><span class="award-badge">Suzhou 2022</span><span>Shengchen Li &mdash; Junior Academia Innovative Fellowship, Gusu Leadership Fellowship, Suzhou Government (Jul 2022 &ndash; Jul 2025).</span></li>
+      <li><span class="award-badge">DCASE 2020</span><span>Yusong Wu, Kun Chen and Shengchen Li &mdash; Runner-up, DCASE Challenge 2020 Task 6, with colleagues from Nanjing University of Posts and Telecommunications.</span></li>
+      <li><span class="award-badge">BAST 2020</span><span>Shengchen Li &mdash; Junior Promotion Fellowship, Beijing Acoustic Association &amp; Beijing Association of Science and Technologies (2020&ndash;2022).</span></li>
+      <li><span class="award-badge">DCASE 2019</span><span>Chunxia Ren, Jun Wang and Shengchen Li &mdash; Winner, DCASE Challenge 2019 Task 1C, with colleagues from Samsung Research Centre, Beijing.</span></li>
+      <li><span class="award-badge">CSMT 2018</span><span>Shengchen Li &mdash; Scholar Contribution Award, 6th Conference on Sound and Music Technology.</span></li>
+      <li><span class="award-badge">CSC 2011</span><span>Shengchen Li &mdash; Public Funding of Overseas Study for High-level University Establishment, China Scholarship Council.</span></li>
+    </ul>
+  </section>
+
+  <!-- Research Themes -->
+  <section class="section">
+    <p class="eyebrow">Research themes</p>
+    <h2>Current directions</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Audio and Music Intelligence</h3>
+        <p>Acoustic scene analysis, music information retrieval, bioacoustics, speech enhancement, and symbolic music generation.</p>
+      </div>
+      <div class="card">
+        <h3>Robust, Trustworthy and Efficient AI</h3>
+        <p>Domain adaptation, few-shot learning, model efficiency, privacy, source tracing, and audio security.</p>
+      </div>
+      <div class="card">
+        <h3>Multimodal and Cross-Domain Perception</h3>
+        <p>Audio-visual learning, multimodal scene classification, sign language recognition, and radar sensing.</p>
+      </div>
+      <div class="card">
+        <h3>Peripheral Review and Interdisciplinary Works</h3>
+        <p>Computer audition review, AI education, optical signal processing, and hardware FPGA systems.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Teaching -->
+  <section class="section muted">
+    <p class="eyebrow">Teaching</p>
+    <h2>Courses and supervision</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>INT306 Computer Auditory Systems</h3>
+        <p>Founding module leader at XJTLU, from AY23-24 until now.</p>
+      </div>
+      <div class="card">
+        <h3>INT104 Artificial Intelligence</h3>
+        <p>Taught at XJTLU from AY20-21 to AY25-26.</p>
+      </div>
+      <div class="card">
+        <h3>INT307 Multimedia Security Systems</h3>
+        <p>Taught at XJTLU in AY21-22 and AY22-23.</p>
+      </div>
+    </div>
+    <h3 style="margin-top: 2.5rem; margin-bottom: 1rem;">Student supervision</h3>
+    <ul class="cv-list">
+      <li><span class="cv-label">AY25-26</span><span class="cv-detail">1 FMP, 8 FYPs, 5 PhD students</span></li>
+      <li><span class="cv-label">AY24-25</span><span class="cv-detail">6 FYPs, 3 SURFs involving 16 students, 4 PhD students</span></li>
+      <li><span class="cv-label">AY23-24</span><span class="cv-detail">4 FMPs, 8 FYPs, 3 SURFs involving 17 students, 3 PhD students</span></li>
+      <li><span class="cv-label">AY22-23</span><span class="cv-detail">9 FMPs, 9 FYPs, 1 SURF involving 10 students, 1 PhD student</span></li>
+      <li><span class="cv-label">AY21-22</span><span class="cv-detail">3 FMPs, 15 FYPs, 1 SURF involving 8 students</span></li>
+      <li><span class="cv-label">Before AY21-22</span><span class="cv-detail">25 FYPs at BUPT, QMUL, and HIT Shenzhen; 8 MPhil students at BUPT</span></li>
+    </ul>
+  </section>
+
+  <!-- Service -->
+  <section class="section">
+    <p class="eyebrow">Academic service</p>
+    <h2>Contributing to the research community</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Professional activities</h3>
+        <ul style="padding-left: 1.1rem; margin: 0;">
+          <li>Member of Technical Committee, CCF (since 2020)</li>
+          <li>Senior Member, IEEE (since 2023)</li>
+          <li>Meta Reviewer, ISMIR 2026</li>
+          <li>Area Chair, ICASSP 2025&ndash;2026</li>
+          <li>Steering Committee, CSMT (since 2018)</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Reviewer service</h3>
+        <ul style="padding-left: 1.1rem; margin: 0;">
+          <li>Journals: IEEE/ACM TASLP, EURASIP JASMP, Frontiers in Medicine</li>
+          <li>Conferences: ICASSP, INTERSPEECH, ISMIR, ICME, DCASE, EUSIPCO, CMMR, CSMT</li>
+        </ul>
+      </div>
+    </div>
+    <h3 style="margin-top: 2.5rem; margin-bottom: 1rem;">Selected invited talks</h3>
+    <div class="timeline">
+      <div class="timeline-item">
+        <span>2024</span>
+        <div>
+          <h3>&ldquo;Robustness Analysis in Music Informatics&rdquo;</h3>
+          <p>China Audio Industry Association</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <span>2023</span>
+        <div>
+          <h3>&ldquo;Acoustic Signal Processing with Machine Learning&rdquo;</h3>
+          <p>Ghent University</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <span>2023</span>
+        <div>
+          <h3>&ldquo;An Overview of Computer Music&rdquo;</h3>
+          <p>Tsinghua University</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <span>2022</span>
+        <div>
+          <h3>&ldquo;The Development of Machine Learning Algorithms for Audio Signal Processing&rdquo;</h3>
+          <p>Dalian Maritime University</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <span>2019</span>
+        <div>
+          <h3>&ldquo;Computational Methods of Expressiveness Analysis&rdquo;</h3>
+          <p>Queen Mary University of London</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <span>2019</span>
+        <div>
+          <h3>&ldquo;Towards Hardware Solutions of Acoustic Signal Processing&rdquo;</h3>
+          <p>University of Surrey</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <span>2018</span>
+        <div>
+          <h3>&ldquo;Arts or Engineering: Music Perception and Recognition&rdquo;</h3>
+          <p>Fudan University</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta">
+    <h2>Collaboration and supervision</h2>
+    <p>I am always open to collaborating with researchers, industry partners, and prospective PhD students who share an interest in machine listening, audio AI, and trustworthy machine learning. If you are interested in working together, please get in touch.</p>
+    <a href="contact.html" class="button primary">Get in touch</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer"><p>&copy; 2026 Dr Shengchen Li. All rights reserved.</p></footer>
+
+</body>
 </html>
