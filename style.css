@@ -262,6 +262,14 @@ a:hover { color: var(--accent); }
   gap: 1.2rem;
 }
 
+.card-grid.two-col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#recruitment h3 {
+  margin-top: 2.2rem;
+}
+
 .card { box-shadow: none; }
 .card p { color: var(--text-muted); }
 
@@ -632,15 +640,23 @@ a:hover { color: var(--accent); }
 }
 
 /* --- Recruitment Info --- */
-.recruitment-info {
-  background: var(--bg-muted);
+.recruitment-info,
+.recruitment-notice {
+  background: var(--card);
   border-left: 4px solid var(--primary);
   padding: 1.5rem 1.7rem;
   border-radius: 0 20px 20px 0;
   margin: 1.5rem 0;
 }
 
-.recruitment-info p:last-child { margin-bottom: 0; }
+.recruitment-notice {
+  border-left-color: var(--accent);
+}
+
+.recruitment-info p:last-child,
+.recruitment-notice p:last-child { margin-bottom: 0; }
+
+.recruitment-notice p:first-child { margin-top: 0; }
 
 /* --- Footer --- */
 .site-footer {
