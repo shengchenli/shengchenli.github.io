@@ -59,13 +59,8 @@
   <section class="section muted">
     <p class="eyebrow">Latest updates</p>
     <h2>Recent news</h2>
-    <ul class="news-list">
-      <li><span class="news-date">29 Sep 2026</span><span class="news-text">Three papers have been presented at INTERSPEECH 2026 in Sydney on 28 and 29 September: &ldquo;Enhancing Temporal Prediction Consistency for Short-Duration Acoustic Scene Classification via Semantic Adversarial Training&rdquo;, &ldquo;CoRE: Contrastive Rescoring for Evidence-Aware Multiple-Choice Audio Question Answering&rdquo;, and &ldquo;Towards Event-Robust Acoustic Scene Classification&rdquo;.</span></li>
-      <li><span class="news-date">19 Aug 2026</span><span class="news-text">PhD recruitment has been updated: two fee-waiver studentships are currently offered, with deadline 15 September. Details are on the <a href="contact.html#recruitment">recruitment page</a>.</span></li>
-      <li><span class="news-date">04 Jun 2026</span><span class="news-text">Three INTERSPEECH manuscripts have been accepted.</span></li>
-      <li><span class="news-date">25 Mar 2026</span><span class="news-text">A manuscript has been accepted by ICME 2026.</span></li>
-      <li><span class="news-date">23 Jan 2026</span><span class="news-text">Four manuscripts have been accepted by ICASSP, alongside two more TASLP paper presentations.</span></li>
-    </ul>
+    <ul class="news-list" id="recent-news"></ul>
+    <noscript><p>Recent news is listed on the <a href="news.html">news page</a>.</p></noscript>
     <p style="margin-top: 1.5rem;"><a href="news.html" class="button secondary">View all news</a></p>
   </section>
 
@@ -247,6 +242,40 @@
 
   <!-- Footer -->
   <footer class="site-footer"><p>&copy; 2026 Dr Shengchen Li. All rights reserved.</p></footer>
+
+  <script>
+    (function () {
+      var RECENT_COUNT = 5;
+      var MONTHS = { Jan: 0, Feb: 1, Mar: 2, Apr: 3, May: 4, Jun: 5, Jul: 6, Aug: 7, Sep: 8, Oct: 9, Nov: 10, Dec: 11 };
+      var list = document.getElementById('recent-news');
+
+      function newsTime(item) {
+        var dateEl = item.querySelector('.news-date');
+        var parts = dateEl ? dateEl.textContent.trim().split(/\s+/) : [];
+        var month = MONTHS[parts[1]];
+        if (parts.length !== 3 || month === undefined) return 0;
+        return Date.UTC(Number(parts[2]), month, Number(parts[0]));
+      }
+
+      fetch('news.html')
+        .then(function (response) {
+          if (!response.ok) throw new Error('news page unavailable');
+          return response.text();
+        })
+        .then(function (html) {
+          var doc = new DOMParser().parseFromString(html, 'text/html');
+          var items = Array.prototype.slice.call(doc.querySelectorAll('ul.news-list > li'));
+          items.sort(function (a, b) { return newsTime(b) - newsTime(a); });
+          list.replaceChildren();
+          items.slice(0, RECENT_COUNT).forEach(function (item) {
+            list.appendChild(document.importNode(item, true));
+          });
+        })
+        .catch(function () {
+          list.innerHTML = '<li><span class="news-text">Recent news is listed on the <a href="news.html">news page</a>.</span></li>';
+        });
+    })();
+  </script>
 
 </body>
 </html>
